@@ -1,0 +1,108 @@
+<html lang="en" ng-app="MyApp" class="no-js">
+
+<head>
+   <base href="/">
+   <meta charset="utf-8">
+   <title>Motor Coach RV - Customization</title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="robots" content="">
+    <link rel="stylesheet" type="text/css" href="public/css/main.css">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:500|600|700|800|Open+Sans" rel="stylesheet">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+   <link rel="shortcut icon" href=""> </head>
+
+<body>
+   <div class="container">
+      <div class="nav">
+         <div class="top-left-mobile-burger" onclick="openNav()"> <i class="fas fa-bars"></i> </div>
+         <div id="myNav" class="overlay"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content"> <a href="#">Buy RV</a> <a href="#">Sell RV</a> <a href="#">Clients</a> <a href="#">Contact</a> </div>
+         </div>
+         <div class="top-small-nav"> <span><a href=""><i class="fas fa-envelope"></i></a></span> <span><a href=""><i class="fas fa-phone"></i></a></span> <span><a href=""><i class="fas fa-list-alt"></i></a></span> </div>
+      </div>
+      <div class="top-middle-logo">
+         <div class="logo"><img src="../img/white-logo.png" alt="motocoach direct"></div>
+         <div class="top-right-nav"> <span><a href="">Buy RV</a></span> <span><a href="">Sell RV</a></span> </div>
+      </div>
+      <!-- nav ends here -->
+      
+      <!-- header -->
+      <div class="middle-header">
+         <h2>Please Select Options</h2> 
+      </div>
+      <!-- header -->
+      
+      <!-- body -->
+<section class="customizing-rv">
+   <form>
+   <fieldset class="color-option">
+      <legend>Color Options</legend>
+      <label for="interior color">interior color</label>
+      <input type="text" id="interior-color-customed" value="">
+      <br/>
+      <label for="sasquatch">Exterior color</label>
+      <input type="text" id="exterior-color-customed" value=""> </fieldset>
+   <fieldset class="king-bed">
+      <legend>Kind Bed</legend>
+      <label for="Yes">Yes</label>
+      <input type="radio" value="king-bed-yes" name="customization1">
+      <label for="Yes">No</label>
+      <input type="radio" value="king-bed-no" name="customization1"> </fieldset>
+   <fieldset class="queen-bed">
+      <legend>Queen Bed</legend>
+      <label for="Yes">Yes</label>
+      <input type="radio" value="queen-bed-yes" name="customization2">
+      <label for="Yes">No</label>
+      <input type="radio" value="queen-bed-no" name="customization2"> </fieldset>
+   <fieldset class="water-system">
+      <legend>Water-Heater-System</legend>
+      <label for="Tank">Tank</label>
+      <input type="radio" value="Tank" name="customization3">
+      <label for="Tankless">Tankless</label>
+      <input type="radio" value="Tankless" name="customization3"> </fieldset>
+   <fieldset class="refridgerator">
+      <legend>Fridge</legend>
+      <label for="rv-fridge">RV</label>
+      <input type="radio" value="rv-fridge" name="customization4">
+      <label for="residentila-fridge">Residential</label>
+      <input type="radio" value="residential-fridge" name="customization4"> </fieldset>
+   <fieldset class="satelite">
+      <legend>In Motion Satelite</legend>
+      <label for="yes">Yes</label>
+      <input type="radio" value="satelite-yes" name="customization5">
+      <label for="no">No</label>
+      <input type="radio" value="satelite-no" name="customization5"> </fieldset>
+         <fieldset class="collision-avoidance-system">
+      <legend>Collision Avoidance System</legend>
+      <label for="yes">Yes</label>
+      <input type="radio" value="collision-avoidance-system-yes" name="customization6">
+      <label for="no">No</label>
+      <input type="radio" value="collision-avoidance-system-no" name="customization6"> </fieldset>
+      <button type="submit" class="main-btn">Submit</button>
+</form>
+</section>
+      
+      <!-- body -->
+      <!-- footer -->
+      
+      <footer>
+         <div class="footer-left-link"> <span><a href="#">About</a></span> <span><a href="#">Sell your RV</a></span> <span><a href="#">Find your RV</a></span> <span><a href="#">Get on our Dealer List</a></span> <span><a href="#">Site Map</a></span> <span><a href="#">Contact</a></span> </div>
+         <div class="footer-right-link"> <span><i class="fab fa-twitter-square"></i> <a href="" target="_blank">on twitter</a></span> <span><i class="fab fa-linkedin"></i> <a href="" target="_blank">on linkdin</a></span> <span><i class="fab fa-facebook-square"></i> <a href="" target="_blank">on facebook</a></span> <span><i class="fab fa-instagram"></i> <a href="" target="_blank">on instagram</a></span> <!--<span><i class="fab fa-google-plus-square"></i></span>--> </div>
+         <div class="legal-content"> <span><a href="" target="_blank">Terms of Service</a> | <a href="" target="_blank">Privacy Statement</a></span> <span>2019 MotorCoach Direct. All Right reserved</span> </div>
+      </footer>
+   </div>
+   <script>
+      function openNav() {
+         document.getElementById("myNav").style.width = "100%";
+      }
+
+      function closeNav() {
+         document.getElementById("myNav").style.width = "0%";
+      }
+   </script>
+   <script src="/reload/reload.js"></script>
+   <script src="/js/jquery.min.js"></script>
+</body>
+
+</html>
